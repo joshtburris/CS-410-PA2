@@ -1,0 +1,29 @@
+# you may include comments here 
+eye 0 0 0
+look 1 0 0
+up 0 0 1 
+d -1
+bounds -1 1 -1 1 
+res 512 512
+ambient 0.1 0.1 0.1 
+light 0 0 0 1 0.3 0.3 0.3
+# Red light
+light 1 2.5 2.5 1 1.0 0.0 0.0
+# Green light
+light 1 -2.5 2.5 1 0.0 1.0 0.0
+# Blue light
+light 1 0 -2.5 1 0.0 0.0 1.0
+# Top sphere
+sphere 5 0 2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+sphere 5 2.5 2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+# Left sphere
+sphere 5 2.5 0 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+sphere 5 2.5 -2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+# Bottom sphere
+sphere 5 0 -2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+sphere 5 -2.5 -2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+# Right sphere
+sphere 5 -2.5 0 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+sphere 5 -2.5 2.5 1.25 0.2 0.2 0.2 0.7 0.7 0.7 0 0 0 0 0 0
+# Big center sphere
+sphere 10 0 0 5 0.2 0.2 0.2 0.7 0.7 0.7 0.5 0.5 0.5 1.0 1.0 1.0
